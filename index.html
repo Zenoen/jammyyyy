@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container-fluid background-white custom">
+        <div class="row m-2 d-flex align-items-center" style="background: white; border-radius: 10px !important;">
+            <div class="col-md-6 text-center">
+                <img src="./img/birthday.svg" alt="birthday" class="img-fluid pt-3">
+                <h3 class="pt-3" style="font-weight: 700;">Happy 24th Birthday ! Jammy <i class="fa fa-birthday-cake" aria-hidden="true"></i> !</h3>
+                <p>I hope you have a wonderful birthday.</p>
+                <p class="pb-3" style="color:gray">-&nbsp;Jado <i class="fa fa-heart" aria-hidden="true"></i></p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="text-center" id="jammy-gwapa">
+                    <button type="button" class="screaming-jump-button" onclick="clickme()">click me !</button>
+                </div>
+
+                <div class="text-center pt-5" id="jammy-labyu" style="background-image: url('img/confetti.jpg'); background-size: cover; background-position: center; min-height: 100px;" hidden>
+                    <img src="./img/jammy-cutie-1.jpg" alt="jammy-cutie" style="height: 250px; width: 220px;" class="pt-3 rounded-circle">
+                </div>
+                <br>
+                <div class="m-2" style="background-color: #3A3A3A; border-radius: 10px;">
+                    <div class="p-4 m-0" id="kiss-ko" style="color: white; text-align: justify;" hidden>
+                        <p class="text-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi Luv ! I hope ma enjoy nimo imong birthday bisag kapoy na kaayo ka sa work.
+                            Sorry kung dili kaayo ni nindot ang akoang gibuhat, it took me 2 days to come up with ideas para at least dili ka ma disappoint hehe. Pasensyae kay "beNIGGER" 
+                            pa intawn imong uyab pero sige lang mas nindot pa ani akoang buhaton puhon. 
+                            Anyways enjoy your birthday Luuv and more birthdays to come. <b>I LOVE YOU ! ! !</b>
+                        </p>
+                        <br>
+                        <p class="text-end fs-6">Your Luv,</p>
+                        <p class="text-end fs-4" style="opacity: 90%;">- "Jado1133"</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
+
+<script>
+    function clickme() 
+    {
+        document.getElementById('jammy-gwapa').style.display = 'none';
+        document.getElementById('jammy-labyu').hidden = false;
+        document.getElementById('kiss-ko').hidden = false;
+    }
+</script>
